@@ -1,4 +1,4 @@
-##Site Desenvolvido com HTML, CSS e JavaScript
+## Site Desenvolvido com HTML, CSS e JavaScript
 
 Este repositório contém o código-fonte de um site criado com HTML, CSS e JavaScript, a partir de um design desenvolvido no Figma.
 
