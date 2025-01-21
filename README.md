@@ -13,5 +13,5 @@ style.css: Arquivo de estilos.
 script.js: Arquivo de scripts para adicionar interatividade.
 
 **Como Usar**
-1) Clone o repositório: git clone https://github.com/seu-usuario/seu-repositorio.git  
+1) Clone o repositório: git clone https://github.com/alicevnava/site-pessoal.git
 2) Abra o arquivo index.html no navegador para visualizar o site.
