@@ -33,23 +33,64 @@
     <main>
       <!-- home -->
       <section id="homeSection">
-        <div id="imgHome" style="padding-top: 0px;"></div>
+        <div id="imgHome" style="padding-top: 0px"></div>
         <div id="homeInfo">
           <h1>Alice Vivas Nava</h1>
           <h2>Desenvolvedora Front End</h2>
-          <div class="btnDownload">
+          <div class="btnDownload defaultButton">
             <img src="./assets/icons/download.svg" alt="Download" />
-            <a href="./sources/curriculoAliceNava.pdf" download="curriculoAliceNava.pdf">Baixar Currículo</a>
+            <a
+              href="./sources/curriculoAliceNava.pdf"
+              download="curriculoAliceNava.pdf"
+              >Baixar Currículo</a
+            >
           </div>
         </div>
       </section>
 
+      <!-- about me -->
       <section id="aboutSection">
-        <h1>Sobre Mim</h1>
+        <div id="aboutInfo">
+          <div id="aboutInfoFlex">
+            <h1>Sobre Mim</h1>
+            <p>
+              Olá! Me chamo Alice Vivas Nava e sou de Brasília, DF. Sou uma
+              desenvolvedora front-end recém-formada, apaixonada por criar
+              interfaces funcionais e esteticamente agradáveis. Tenho
+              experiência prática no desenvolvimento de sites e aplicações web
+              utilizando HTML, CSS e JavaScript e, atualmente, estou
+              aprofundando meus conhecimentos em React para criar aplicações
+              ainda mais dinâmicas e modernas.
+            </p>
+            <div class="btnLinkedin defaultButton">
+              <img src="./assets/icons/arrow.svg" alt="seta para direita" />
+              <a
+                href="https://www.linkedin.com/in/alice-vivas-nava"
+                target="_blank"
+                >Confira meu Linkedin</a
+              >
+            </div>
+          </div>
+        </div>
+        <div id="imgAbout"></div>
       </section>
 
+      <!-- skills -->
       <section id="skillsSection">
-        <h1>Skills</h1>
+        <div class="overlay">
+          <h1>Skills</h1>
+          <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>Git</li>
+            <li>GitHub</li>
+          </ul>
+          <div class="defaultButton btnResume">
+            <img src="./assets/icons/download.svg" alt="Download" />
+            <a href="./sources/curriculoAliceNava.pdf" download="curriculoAliceNava.pdf">Baixar Currículo Completo</a>
+          </div>
+        </div>
       </section>
 
       <section id="contactSection">
