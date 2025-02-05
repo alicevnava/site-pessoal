@@ -23,10 +23,10 @@
     <nav>
       <img src="./assets/images/logo.svg" alt="logo" />
       <ul id="navLinks">
-        <li>Sobre Mim</li>
-        <li>Skills</li>
-        <li>Projetos</li>
-        <li><b>Contatos</b></li>
+        <li> <a href="#homeSection">Sobre Mim</a></li>
+        <li> <a href="#aboutSection">Skills</a></li>
+        <li><a href="#skillsSection">Projetos</a></li>
+        <li><a href="#contactSection"></a><b>Contatos</b></li>
       </ul>
     </nav>
 
@@ -35,7 +35,7 @@
       <section id="homeSection">
         <div id="imgHome" style="padding-top: 0px"></div>
         <div id="homeInfo">
-          <h1>Alice Vivas Nava</h1>
+          <h1 class="title">Alice Vivas Nava</h1>
           <h2>Desenvolvedora Front End</h2>
           <div class="btnDownload defaultButton">
             <img src="./assets/icons/download.svg" alt="Download" />
@@ -52,7 +52,7 @@
       <section id="aboutSection">
         <div id="aboutInfo">
           <div id="aboutInfoFlex">
-            <h1>Sobre Mim</h1>
+            <h1 class="title">Sobre Mim</h1>
             <p>
               Olá! Me chamo Alice Vivas Nava e sou de Brasília, DF. Sou uma
               desenvolvedora front-end recém-formada, apaixonada por criar
@@ -78,7 +78,7 @@
       <!-- skills -->
       <section id="skillsSection">
         <div class="overlay">
-          <h1>Skills</h1>
+          <h1 class="title">Skills</h1>
           <ul>
             <li>HTML</li>
             <li>CSS</li>
@@ -88,14 +88,49 @@
           </ul>
           <div class="defaultButton btnResume">
             <img src="./assets/icons/download.svg" alt="Download" />
-            <a href="./sources/curriculoAliceNava.pdf" download="curriculoAliceNava.pdf">Baixar Currículo Completo</a>
+            <a
+              href="./sources/curriculoAliceNava.pdf"
+              download="curriculoAliceNava.pdf"
+              >Baixar Currículo Completo</a
+            >
           </div>
         </div>
       </section>
 
+     <!-- contatos -->
       <section id="contactSection">
-        <h1>Contatos</h1>
+        <div id="contactInfo">
+          <div id="contactInfoChild">
+            <h1 class="title">Contato</h1>
+            <p class="customLineHeight">Gostaria de bater um papo comigo? Vou deixar todas as minhas formas de contato e redes sociais listadas abaixo.</p>
+
+            <address class="emailAndPhone" >
+              <div class="contactItem">
+                <img class="imgContactItens" src="./assets/icons/mail.svg">
+                <p>vivasn.alice@gmail.com</p>
+              </div>
+              <div class="contactItem">
+                <img src="./assets/icons/phone.svg">
+              <p><a href="https://wa.me/5561998171173" target="_blank">+55 (61) 99817-1173</a></p> 
+              </div>
+            </address>
+
+            <div class="socialMedia">
+              <a href="https://www.linkedin.com/in/alice-vivas-nava/" target="_blank">
+                <img src="./assets/icons/linkedin.svg">
+              </a>
+
+              <a href="https://github.com/alicevnava" target="_blank">
+                <img src="./assets/icons/github.svg">
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div id="contactPhoto"></div>
       </section>
+
+        
     </main>
 
     <footer></footer>
