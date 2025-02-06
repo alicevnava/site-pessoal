@@ -10,8 +10,15 @@
   --text-color: #333;
   --border-radius-base: 8px;
 }
+
+html, body {
+  overflow-x: hidden;
+  width: 100%;
+}
+
 * {
   font-family: "Rubik", serif;
+  
 }
 nav {
   background-color: var(--nav);
@@ -251,7 +258,7 @@ a {
 
 
 /* responsividade */
-/* @media (orientation: portrait){
+@media (orientation: portrait){
   .title{
     font-size: 2.6rem;
   }
@@ -271,31 +278,31 @@ a {
       font-size: 1.71rem;
     }
 
-    #homePhoto{
+    #imgHome{
       height: 30vh;
       width: 30vh;
       border-radius: 50%;
       margin-bottom: 3.8rem;
     }
 
-    #homeTexts{
+    #homeInfo{
       display: flex;
       flex-direction: column;
       align-items: center;
     }
   }
 
-  #aboutMePhoto{
+  #imgAbout{
     display: none;
   }
 
   #aboutSection{
-    #aboutMeTextsFlexContainer{
+    #aboutInfo{
       text-align: justify;
       width: 100vw;
       align-items: center;
 
-      #aboutMeTextsFlexItem{
+      #aboutInfoFlex{
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -312,4 +319,6 @@ a {
   nav{
     display: none;
   }
-} */
+
+  
+}
