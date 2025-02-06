@@ -1,10 +1,10 @@
-## Site Desenvolvido com HTML, CSS e JavaScript
+## Site Desenvolvido com HTML e CSS 
 
 Este repositório contém o código-fonte de um site criado com HTML, CSS e JavaScript, a partir de um design desenvolvido no Figma.
 
 #### Ferramentas e Tecnologias Utilizadas
 
-- HTML, CSS e JavaScript: Para a estrutura, estilo e interatividade do site.
+- HTML e CSS: Para a estrutura, estilo e interatividade do site.
 - Figma: Como base para o design e prototipação.
 - Adobe Colors e Coolors**: Para definição de paletas de cores.
 - Google Fonts: Para seleção de tipografias personalizadas e ícones.
@@ -13,7 +13,6 @@ Este repositório contém o código-fonte de um site criado com HTML, CSS e Java
 
 - index.html: Estrutura principal do site.
 - style.css: Arquivo de estilos.
-- script.js: Arquivo de scripts para adicionar interatividade.
 
 #### Como Usar
 
